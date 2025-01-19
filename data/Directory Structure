@@ -1,0 +1,13 @@
+# /data/ Directory Structure
+
+The `/data/` directory stores datasets and pre-trained models required for AI training and inference processes within the AI Virtual Therapist project.
+
+## Directory Contents
+
+```plaintext
+/data/
+├── raw/                  # Raw data collected from various sources
+├── processed/            # Preprocessed data ready for model training
+├── models/               # Pre-trained machine learning models
+├── logs/                 # Training logs and performance metrics
+└── backups/              # Backup data for redundancy and safety
