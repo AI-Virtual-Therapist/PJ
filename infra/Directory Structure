@@ -1,0 +1,27 @@
+# /infra/ Directory Structure
+
+The `/infra/` directory contains Infrastructure-as-Code (IaC) configurations and deployment scripts for cloud and on-premises environments to support the AI Virtual Therapist project.
+
+## Directory Contents
+
+```plaintext
+/infra/
+├── terraform/             # Terraform scripts for infrastructure provisioning
+│   ├── main.tf            # Main Terraform configuration file
+│   ├── variables.tf       # Variable definitions for flexibility
+│   ├── outputs.tf         # Outputs for referencing created resources
+│   └── providers.tf       # Cloud provider configuration (AWS, Azure, GCP)
+├── ansible/               # Ansible playbooks for system configuration
+│   ├── setup_playbook.yml # Initial server setup configuration
+│   ├── deploy_app.yml     # Deployment of application services
+│   ├── security.yml       # Security hardening scripts
+│   └── roles/             # Modular roles for Ansible playbooks
+├── docker/                # Docker-related files for containerized deployment
+│   ├── Dockerfile         # Dockerfile for building application container
+│   ├── docker-compose.yml # Docker Compose configuration for multi-container setup
+│   ├── .dockerignore      # Files to be ignored during Docker build
+│   └── env/               # Environment files for containerized deployment
+└── monitoring/            # Infrastructure monitoring setup
+    ├── prometheus.yml     # Prometheus monitoring configuration
+    ├── grafana/           # Grafana dashboard settings
+    └── alerts.yml         # Alerting rules and notifications
