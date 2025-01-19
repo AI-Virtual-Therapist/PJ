@@ -1,0 +1,20 @@
+# /src/ Directory Structure
+
+The `/src/` directory contains the core source code for the AI Virtual Therapist project, including AI functionalities, blockchain integrations, and game SDK interactions.
+
+## Directory Contents
+
+```plaintext
+/src/
+├── ai_agent/             # AI core functionalities
+│   ├── nlp/              # Natural Language Processing modules
+│   ├── sentiment_analysis/ # Sentiment analysis logic
+│   └── algorithms/       # Mathematical models and reusable AI logic
+├── blockchain/           # Blockchain integration and smart contracts
+│   ├── contracts/        # Smart contracts written in Solidity
+│   ├── interactions/     # Blockchain interaction scripts
+│   └── tests/            # Smart contract testing
+├── game_sdk/             # Integration with Game SDK for AI interactions
+│   ├── sdk_api/          # API calls to Game SDK
+│   ├── agent_behaviors/  # AI agent behaviors within the game
+│   └── utils/            # Helper functions for SDK integration
