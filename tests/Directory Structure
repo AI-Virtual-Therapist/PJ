@@ -1,0 +1,16 @@
+# /tests/ Directory Structure
+
+The `/tests/` directory contains unit and integration tests for the AI Virtual Therapist project to ensure the reliability and stability of the system components.
+
+## Directory Contents
+
+```plaintext
+/tests/
+├── unit/                 # Unit tests for individual functions and modules
+│   ├── ai_agent/         # Tests for AI functionalities
+│   ├── blockchain/       # Tests for smart contract logic
+│   ├── game_sdk/         # Tests for game SDK integration
+│   └── utils/            # Tests for helper functions
+├── integration/          # Tests covering end-to-end functionality
+├── performance/          # Performance and stress testing
+└── reports/              # Test reports and logs
