@@ -1,0 +1,15 @@
+# /docs/ Directory Structure
+
+The `/docs/` directory contains all necessary documentation to help users, developers, and stakeholders understand and contribute to the AI Virtual Therapist project.
+
+## Directory Contents
+
+```plaintext
+/docs/
+├── whitepaper.md        # Comprehensive project whitepaper
+├── api_reference.md     # Detailed API documentation
+├── roadmap.md           # Future development plans and milestones
+└── media/               # Visual assets and promotional materials
+    ├── branding/        # Logos, color schemes, and marketing materials
+    ├── presentations/   # Pitch decks and conference slides
+    └── images/          # Project-related images and infographics
