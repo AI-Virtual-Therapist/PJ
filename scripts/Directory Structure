@@ -1,0 +1,20 @@
+# /scripts/ Directory Structure
+
+The `/scripts/` directory contains automation scripts for deployment, monitoring, and maintenance of the AI Virtual Therapist project.
+
+## Directory Contents
+
+```plaintext
+/scripts/
+├── deployment/           # Scripts for deployment to cloud or local environments
+│   ├── deploy_dev.sh     # Deploy to development environment
+│   ├── deploy_prod.sh    # Deploy to production environment
+│   └── rollback.sh       # Rollback to previous deployment
+├── monitoring/           # Monitoring and logging scripts
+│   ├── health_check.sh   # Checks system health and uptime
+│   ├── log_cleanup.sh    # Cleans old logs to optimize storage
+│   └── resource_monitor.py # Tracks system resource usage
+├── maintenance/          # Routine maintenance scripts
+│   ├── db_backup.sh      # Database backup script
+│   ├── cache_clear.sh    # Clears cached data
+│   └── update_dependencies.sh # Updates project dependencies
