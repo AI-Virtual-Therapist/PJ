@@ -1,0 +1,27 @@
+# /config/ Directory Structure
+
+The `/config/` directory contains configuration files for different environments to ensure smooth deployment and scalability of the AI Virtual Therapist project.
+
+## Directory Contents
+
+```plaintext
+/config/
+├── development/          # Development environment configuration
+│   ├── app_config.json   # Application-level configurations
+│   ├── db_config.json    # Database connection settings
+│   ├── env_variables.env # Environment variables for local dev
+│   └── logging.yaml      # Logging configurations
+├── production/           # Production environment configuration
+│   ├── app_config.json   # Application-level configurations
+│   ├── db_config.json    # Database connection settings
+│   ├── env_variables.env # Environment variables for production
+│   └── logging.yaml      # Logging configurations
+├── staging/              # Staging environment configuration
+│   ├── app_config.json   # Application-level configurations
+│   ├── db_config.json    # Database connection settings
+│   ├── env_variables.env # Environment variables for staging
+│   └── logging.yaml      # Logging configurations
+└── secrets/              # Secure storage of sensitive information
+    ├── api_keys.json     # API keys and authentication details
+    ├── encryption_keys.json # Encryption key storage
+    └── ssh_keys/         # SSH key management
